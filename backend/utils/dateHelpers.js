@@ -1,6 +1,6 @@
 import { format, subDays, startOfWeek, endOfWeek, eachDayOfInterval } from "date-fns";
 
-export const todayKey = (date) => format(date, "yyyy-MM-dd");
+export const toDateKey = (date) => format(date, "yyyy-MM-dd");
 
 export const todayKey = () => toDateKey(new Date());
 
